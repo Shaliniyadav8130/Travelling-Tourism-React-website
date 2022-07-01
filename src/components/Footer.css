@@ -1,0 +1,40 @@
+#container{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:#d0d8ff;
+    border-radius:0.5rem;
+    padding:2.5rem;
+}
+
+.links{
+    display:flex;
+    justify-content:center;
+    border-radius:0.5rem;
+    padding:2.5rem;
+}
+.links  li{
+    list-style:none;
+    padding:5px;
+}
+
+.links  li a{
+    text-decoration: none;
+    display:flex;
+    color:black;
+    transition:0.3s ease-in-out;
+    margin:25px;
+}
+
+.links  li a:hover{
+    color:#302ce9;
+}
+
+ul svg{
+    font-size:1.3rem;
+    transition:0.3s ease-in-out;
+    display:flex;
+}
+
+ul svg:hover{
+    color:#302ce9;
+}
